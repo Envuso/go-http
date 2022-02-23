@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gohttp/HttpContext"
-	"gohttp/Routing/Route"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Routing/Route"
 )
 
 type CustomController struct {

@@ -1,6 +1,6 @@
 package Route
 
-import "gohttp/Routing/Route/Middleware"
+import "github.com/envuso/go-http/Routing/Route/Middleware"
 
 type RouteMatch struct {
 	Middleware.UsesMiddlewares

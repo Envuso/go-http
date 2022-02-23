@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"gohttp/Routing"
-	"gohttp/Routing/Route"
+	"github.com/envuso/go-http/Routing"
+	"github.com/envuso/go-http/Routing/Route"
 )
 
 func TestRegistration(t *testing.T) {

@@ -3,7 +3,7 @@ package Http
 import (
 	"reflect"
 
-	"gohttp/HttpContext"
+	"github.com/envuso/go-http/HttpContext"
 )
 
 type ResponseProcessor struct {

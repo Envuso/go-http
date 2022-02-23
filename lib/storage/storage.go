@@ -18,8 +18,8 @@ import (
 	"github.com/rclone/rclone/fs/walk"
 	"github.com/rs/xid"
 
-	"gohttp/lib/storage/cache"
-	"gohttp/lib/storage/fs"
+	"github.com/envuso/go-http/lib/storage/cache"
+	"github.com/envuso/go-http/lib/storage/fs"
 
 	_ "github.com/rclone/rclone/backend/local" // import all backends
 )
@@ -96,7 +96,7 @@ func newDisk(name string) (*storage, error) {
 		return nil, err
 	}
 
-	//cm := fs.ConfigMap(regInfo, driver)
+	// cm := fs.ConfigMap(regInfo, driver)
 	cm := configmap.New()
 	cm.AddGetter(cfg)
 

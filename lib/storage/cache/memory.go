@@ -3,8 +3,8 @@ package cache
 import (
 	"errors"
 
+	"github.com/envuso/go-http/lib/storage/fs"
 	"github.com/rclone/rclone/lib/cache"
-	"gohttp/lib/storage/fs"
 )
 
 var (

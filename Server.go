@@ -1,9 +1,9 @@
 package main
 
 import (
-	"gohttp/Routing"
-	"gohttp/Routing/Route"
-	"gohttp/lib/storage"
+	"github.com/envuso/go-http/Routing"
+	"github.com/envuso/go-http/Routing/Route"
+	"github.com/envuso/go-http/lib/storage"
 )
 
 func main() {

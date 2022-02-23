@@ -1,4 +1,4 @@
-module gohttp
+module github.com/envuso/go-http
 
 go 1.18
 

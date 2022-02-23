@@ -3,8 +3,8 @@ package Middleware
 import (
 	"reflect"
 
-	"gohttp/HttpContext"
-	"gohttp/Reflection"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Reflection"
 )
 
 type MiddlewareHandlerFunc = func(ctx *HttpContext.RequestContext)

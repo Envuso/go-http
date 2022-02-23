@@ -5,8 +5,8 @@ import (
 	"reflect"
 
 	container "github.com/Envuso/go-ioc-container"
-	"gohttp/HttpContext"
-	"gohttp/Reflection"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Reflection"
 )
 
 type ControllerRoute struct {

@@ -1,6 +1,6 @@
 package Route
 
-import "gohttp/HttpContext"
+import "github.com/envuso/go-http/HttpContext"
 
 type Controller struct {
 	Context *HttpContext.RequestContext

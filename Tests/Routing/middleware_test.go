@@ -3,9 +3,9 @@ package Routing
 import (
 	"testing"
 
-	"gohttp/HttpContext"
-	"gohttp/Routing"
-	"gohttp/Routing/Route"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Routing"
+	"github.com/envuso/go-http/Routing/Route"
 )
 
 type TestMiddleware struct{}

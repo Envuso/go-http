@@ -1,6 +1,6 @@
 package main
 
-import "gohttp/HttpContext"
+import "github.com/envuso/go-http/HttpContext"
 
 type BigYeetsRequest struct {
 	HttpContext.RequestBody

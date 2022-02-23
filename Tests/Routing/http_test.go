@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gohttp/Http"
-	"gohttp/HttpContext"
-	"gohttp/Routing"
+	"github.com/envuso/go-http/Http"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Routing"
 )
 
 func createResRouter() *Routing.RouterService {
@@ -156,7 +156,7 @@ func TestHttpWithControllerRoute(t *testing.T) {
 	// TODO: Look into this shit more, kinda cool :D
 	// reflect2.TypeByName()
 	// n := reflect.TypeOf(HttpControllerTest{}).PkgPath()
-	// tt := reflect2.TypeByPackageName("gohttp/Tests/Routing", "HttpControllerTest")
+	// tt := reflect2.TypeByPackageName("github.com/envuso/go-http/Tests/Routing", "HttpControllerTest")
 	// print(n, tt)
 
 	route := router.Get("/test", HttpControllerTest{}, "Hello")

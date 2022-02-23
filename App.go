@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/Envuso/go-ioc-container"
-	"gohttp/Http"
-	"gohttp/Routing"
-	"gohttp/lib/storage"
+	"github.com/envuso/go-http/Http"
+	"github.com/envuso/go-http/Routing"
+	"github.com/envuso/go-http/lib/storage"
 )
 
 type App struct {

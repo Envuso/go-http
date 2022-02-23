@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"gohttp/HttpContext"
-	"gohttp/Routing"
-	"gohttp/Routing/Route"
-	"gohttp/Routing/Route/Middleware"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Routing"
+	"github.com/envuso/go-http/Routing/Route"
+	"github.com/envuso/go-http/Routing/Route/Middleware"
 )
 
 // Move this shit to HttpContext once i can refactor that

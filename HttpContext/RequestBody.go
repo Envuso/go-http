@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/envuso/go-http/Reflection"
 	"github.com/tidwall/gjson"
-	"gohttp/Reflection"
 )
 
 type malformedRequest struct {

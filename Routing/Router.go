@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"gohttp/Routing/Route"
-	"gohttp/Routing/Route/Middleware"
-	"gohttp/Utilility"
+	"github.com/envuso/go-http/Routing/Route"
+	"github.com/envuso/go-http/Routing/Route/Middleware"
+	"github.com/envuso/go-http/Utilility"
 )
 
 type RouterContract interface {

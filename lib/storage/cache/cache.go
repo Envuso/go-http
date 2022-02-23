@@ -3,7 +3,7 @@ package cache
 import (
 	"github.com/rclone/rclone/lib/cache"
 
-	"gohttp/lib/storage/fs"
+	"github.com/envuso/go-http/lib/storage/fs"
 )
 
 type (

@@ -4,8 +4,8 @@ import (
 	"log"
 	"reflect"
 
-	"gohttp/Reflection"
-	"gohttp/Utilility"
+	"github.com/envuso/go-http/Reflection"
+	"github.com/envuso/go-http/Utilility"
 )
 
 type routeHandler struct {

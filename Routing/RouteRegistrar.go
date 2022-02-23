@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gohttp/Routing/Route"
+	"github.com/envuso/go-http/Routing/Route"
 )
 
 var RouteParamRegex = regexp.MustCompile(`{(!)?(\w+)}`)

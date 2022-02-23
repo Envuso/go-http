@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"gohttp/HttpContext"
-	"gohttp/Routing"
-	"gohttp/Routing/Route"
+	"github.com/envuso/go-http/HttpContext"
+	"github.com/envuso/go-http/Routing"
+	"github.com/envuso/go-http/Routing/Route"
 )
 
 type UserRequest struct {
